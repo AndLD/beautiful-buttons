@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/beautiful-buttons/static/css/main.f7d3f899.chunk.css",
+    "main.css": "/beautiful-buttons/static/css/main.ee979ade.chunk.css",
     "main.js": "/beautiful-buttons/static/js/main.acfcaca9.chunk.js",
     "main.js.map": "/beautiful-buttons/static/js/main.acfcaca9.chunk.js.map",
     "runtime-main.js": "/beautiful-buttons/static/js/runtime-main.f0a263d5.js",
@@ -10,13 +10,13 @@
     "static/js/3.0e797dd7.chunk.js": "/beautiful-buttons/static/js/3.0e797dd7.chunk.js",
     "static/js/3.0e797dd7.chunk.js.map": "/beautiful-buttons/static/js/3.0e797dd7.chunk.js.map",
     "index.html": "/beautiful-buttons/index.html",
-    "static/css/main.f7d3f899.chunk.css.map": "/beautiful-buttons/static/css/main.f7d3f899.chunk.css.map",
+    "static/css/main.ee979ade.chunk.css.map": "/beautiful-buttons/static/css/main.ee979ade.chunk.css.map",
     "static/js/2.7c5111c1.chunk.js.LICENSE.txt": "/beautiful-buttons/static/js/2.7c5111c1.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f0a263d5.js",
     "static/js/2.7c5111c1.chunk.js",
-    "static/css/main.f7d3f899.chunk.css",
+    "static/css/main.ee979ade.chunk.css",
     "static/js/main.acfcaca9.chunk.js"
   ]
 }
