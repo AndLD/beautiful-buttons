@@ -1,0 +1,94 @@
+$light-shadow: rgba(195, 205, 211, 0.2);
+$dark-shadow: rgba(32, 66, 87, 0.2);
+$white-shadow: rgba(255, 255, 255, 0.5);
+
+.App {
+    .comment {
+        opacity: 0.5;
+        color: gray;
+        font-size: 22px;
+        font-weight: bold;
+        position: fixed;
+        // top: 50px;
+        left: 50px;
+    }
+    .container {
+        background-color: #e9eaec;
+        // width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .content-wrapper {
+            box-shadow: 11px 11px 10px 0px $light-shadow inset, -11px -11px 10px 0px $white-shadow inset;
+            border-radius: 25px;
+            padding: 20px 20px 50px;
+
+            .subtitle {
+                font-size: 35px;
+                margin: 0 0 20px 30px;
+            }
+            .types {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+
+                .btn {
+                    min-width: 180px;
+                    width: 180px;
+                    max-width: 180px;
+                    box-shadow: inset 0 0 0 transparent, inset 0 0 0 transparent, 11px 11px 10px 1px $dark-shadow,
+                        -11px -11px 10px 0px $white-shadow;
+
+                    background: #e9eaec;
+                    border-radius: 30px;
+
+                    padding: 20px 40px;
+                    flex: 1;
+
+                    cursor: pointer;
+                    margin: 15px 30px;
+
+                    transition: box-shadow 0.3s ease;
+                    text-align: center;
+
+                    .type-icon {
+                        font-size: 70px;
+                        line-height: 0.5;
+                    }
+                    .type {
+                        transition: all 0.3s ease;
+                        margin: 10px 10px;
+                        font-size: 18px;
+                        font-weight: bold;
+                        text-align: center;
+                        white-space: nowrap;
+                    }
+                    .estimated-time {
+                        font-family: 'Rubik';
+                        font-size: 18px;
+                        white-space: nowrap;
+                    }
+                    .estimated-price {
+                        margin: 60px 0 10px 0;
+                        font-size: 25px;
+                        font-weight: bold;
+                        white-space: nowrap;
+                    }
+                }
+
+                .btn.selected {
+                    cursor: default;
+                    box-shadow: 11px 11px 15px 0px $dark-shadow inset, -11px -11px 15px 0px $white-shadow inset;
+                }
+            }
+        }
+    }
+}
+
+.gradient-text {
+    background: linear-gradient(90deg, #12c3fa 30%, #0461ea 70%);
+    background-clip: text;
+    color: transparent;
+}
